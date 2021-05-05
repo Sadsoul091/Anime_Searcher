@@ -86,5 +86,5 @@ See [API](https://api.bots.business/docs#/docs/summary)
 
 COMMANDS FOR THE BOT 
  
-  1. /startb- to start the bot and to get info on support group
+  1. /start- to start the bot and to get info on support group
   2. /anime- to get info on how to use the bot
