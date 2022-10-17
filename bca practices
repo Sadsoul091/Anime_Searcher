@@ -1,0 +1,228 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO8DcZL+v1+IN8BIU6XGtOy",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sadsoul091/Anime_Searcher/blob/BB_Export_1620191558/bca%20practices\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gm9QRHJv_HcH",
+        "outputId": "ad695dc0-f521-45d3-e4bf-897d68613551"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Rupam Dutta\n",
+            "BalayBagg,Naihati,Kolkata,WestBengal,India\n"
+          ]
+        }
+      ],
+      "source": [
+        "print (\"Rupam Dutta\")\n",
+        "print (\"BalayBagg,Naihati,Kolkata,WestBengal,India\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=float(input(\"Enter 1st number\"))\n",
+        "b=float(input(\"Enter 2nd number \"))\n",
+        "S = a+b\n",
+        "print (\"Sum is\",S)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CL31eK_E_ndJ",
+        "outputId": "93c6b244-433c-405f-f1af-6ae922e00e3c"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter 1st number2.3\n",
+            "Enter 2nd number 5.3\n",
+            "Sum is 7.6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"enter 1st number\"))\n",
+        "b=int(input(\"enter 2nd number\"))\n",
+        "D=a-b\n",
+        "e=a*b\n",
+        "f=a/b\n",
+        "print(\"subs is\",D, \"multi is\",e, \"divide is\",f)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "isRoq0ZEBTQk",
+        "outputId": "bbbf1f4f-a94f-458b-de82-315820c927b7"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter 1st number34\n",
+            "enter 2nd number45\n",
+            "subs is -11 multi is 1530 divide is 0.7555555555555555\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=-5\n",
+        "if a>0:\n",
+        "  print (\"positive\")\n",
+        "else:\n",
+        "  print (\"negative\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EfABC3bJC--g",
+        "outputId": "50e1c791-ed6e-4e48-b2ad-3bb1e7ee2878"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "negative\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=float(input(\"enter 1st number\"))\n",
+        "b=float(input(\"enter 2nd number\"))\n",
+        "area=a*b\n",
+        "perimeter=2*(a+b)\n",
+        "print (area)\n",
+        "print (perimeter)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-uC6AW3MD9Nw",
+        "outputId": "eec0237d-a8ce-4df2-ea28-d4b7c59a2059"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter 1st number5\n",
+            "enter 2nd number6\n",
+            "30.0\n",
+            "22.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"enter 1st number\"))\n",
+        "a=a*a\n",
+        "p=4*a\n",
+        "print (\"area is\", a)\n",
+        "print (\"perimeter is\", p)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PduhwDbwFchY",
+        "outputId": "19791106-04a9-4283-c7bd-6c277f1e15d5"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter 1st number6\n",
+            "area is 36\n",
+            "perimeter is 144\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"enter a number\"))\n",
+        "if (a%2)==0:\n",
+        "  print (\"even\")\n",
+        "else:\n",
+        "  print (\"odd\") "
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "maT_rL_6GrQX",
+        "outputId": "191c1683-995f-406c-bf39-7d0407cf0948"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a number8\n",
+            "even\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
